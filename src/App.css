@@ -1,0 +1,38 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color: aliceblue;
+  /* min-width: 300px; */
+  /* background-color: rgb(117, 232, 211); */
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  width: 100%;
+}
+
+.nav-bar{
+  background-image: url('heroImageBackground.png');
+  background-size: cover;
+  /* min-width: 100%; */
+}
+
+/* @media screen and (max-width: 992px) {
+  body {
+    background-color: magenta;
+    height: auto;
+    width: auto;
+  }
+} */
+
+/* 
+.about-event-lists, .stats{
+  background-color:blue;
+  background-size: cover;
+} */
+
+
+
+

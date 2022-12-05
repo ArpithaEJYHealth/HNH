@@ -1,0 +1,132 @@
+.our-team-heading {
+    position: absolute;
+    font-family: 'Orienta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 6vw;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #07182A;
+    border-radius: 17px;
+    padding-right: 70px;
+    padding-left: 70px;
+    left: 37%;
+    margin-bottom: 30rem;
+    top: 515rem;
+}
+
+.our-team-layout {
+    position: absolute;
+    top: 525rem;
+    width: 100%;
+    background: rgba(213, 240, 242, 0.75);
+    background-size: cover;
+}
+
+
+.team-member-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    row-gap: 5vw;
+    padding: 10px;
+    justify-items: center;
+    justify-content: space-around;
+    align-content: center;
+    background: rgba(213, 240, 242, 0.75);
+    height: 1050px;
+    /* position: absolute; */
+
+    /* gap: 20px; */
+    /* flex-wrap: wrap;
+    order: 3; */
+
+}
+
+.our-team-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    row-gap: 2vw;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    height: 55vh;
+    width: 15vw;
+    box-shadow: 0px 10px 0px 10px rgb(5, 3, 13);
+}
+
+.social-media-links {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 1vw;
+
+    /* top: 287px;
+    padding: 10px; */
+}
+
+
+.member-title {
+    font-family: 'Orienta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: #000000;
+}
+
+.member-name {
+    font-family: 'Orienta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 2vw;
+    padding: 10px;
+    margin: 10px;
+    color: #fffefe;
+    background: #07182A;
+    box-shadow: 0px 3px 4px rgba(159, 151, 151, 0.25);
+    border-radius: 31px;
+}
+
+.member-image {
+    background: #D9D9D9;
+    border-radius: 50%;
+    height: 25vh;
+    width: 10vw;
+    margin-top: 1vw;
+}
+
+/* .our-team-wrapper{
+    width: 220px;
+    height: 379px;
+    top: 50px;
+} */
+
+@media only screen and (min-width:200px) and (max-width:567px) {
+    .our-team-wrapper {
+        background-color: magenta;
+        width: 100%;
+    }
+
+    .team-member-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .our-team-wrapper {
+        height: 25vh;
+        width: 15vw;
+    }
+.social-link{
+    height: 4vh;
+    width: 4vw;
+}
+
+.member-title{
+    font-size: 2vw;
+}
+
+}

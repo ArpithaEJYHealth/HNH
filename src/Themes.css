@@ -1,0 +1,13 @@
+.themes-layout {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 380vh;
+    max-width: 100%;
+}
+
+.themesImage{
+    width: 100%;
+    height: 100vh;
+    
+}

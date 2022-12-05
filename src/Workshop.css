@@ -1,0 +1,14 @@
+.workshop-section{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    /* top: 125rem; */
+    top:250vh;
+    /* bottom: 75.29%; */
+    /* background-color: magenta; */
+    max-width: 100%;
+}
+
+.workshopImage{
+    width: 100%;
+}

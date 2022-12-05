@@ -1,0 +1,93 @@
+.FAQLayout {
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    left: 35%;
+    top: 595rem;
+}
+
+.FAQ-heading {
+    position: absolute;
+    /* left: 45.7%;
+    right: 45.62%;
+    top: 79.12%;
+    bottom: 20.38%; */
+
+    font-family: 'Orienta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 5vw;
+    color: #fcfbfb;
+    background: #07182A;
+    border-radius: 17px;
+    left: 30%;
+    /* padding-right: 0.1vw;
+    padding-left: 0.1vw; */
+    width: 12vw;
+}
+
+
+.FAQImages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 70vw;
+    height: 70vh;
+    left: calc(50% - 980px/2 - 4px);
+    top: 610rem;
+}
+
+
+/* below is for testing */
+
+.accordion-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #080236;
+    border-radius: 14px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 3vw;
+}
+
+.accordion-title,
+.faq-answer {
+    padding: 1rem;
+}
+
+.faq-answer {
+    background-color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.accordion-item {
+    /* margin: 10px; */
+    padding: 0.1vw;
+    width:90%
+}
+
+/* @media only screen and (min-width:200px) and (max-width:567px) {
+    .accordion-item{
+
+background-color: magenta;
+max-width: 100%;
+font-size: small;
+    }
+
+    .FAQ-heading{
+        font-size: small;
+    }
+} */
